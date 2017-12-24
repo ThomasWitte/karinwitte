@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body {
+overflow-y:auto;
+overflow-x:hidden;
+}
+
+a {
+text-decoration:none;
+}
+
+#content {
+text-align:center;
+margin-left:-1800px;
+margin-right:-1800px;
+padding:0;
+}
+
+.site-header {
+font-size:45pt;
+font-family:Quicksand, sans-serif;
+text-align:right;
+line-height:85px;
+vertical-align:bottom;
+height:70px;
+white-space:nowrap;
+}
+
+.site-navigation {
+height:100px;
+font-size:45pt;
+font-family:Quicksand, sans-serif;
+width:100%;
+text-align:center;
+background-color:#b3ff80;
+line-height:100px;
+vertical-align:middle;
+}
+
+#nav-box {
+width:1500px;
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+}
+
+#nav-box2 {
+width:1500px;
+-webkit-transition:margin-left 1s;
+transition:margin-left 1s;
+}
+
+.site-navigation-elt {
+width:33%;
+float:left;
+text-align:center;
+}
+
+.site-navigation-elt :hover {
+cursor:pointer;
+}
+
+.site-column {
+font-size:30pt;
+font-family:Quicksand, sans-serif;
+text-align:center;
+width:800px;
+margin-top:20px;
+margin-left:auto;
+margin-right:auto;
+}
+
+#contact {
+text-align:left;
+}
+
+.site-column img {
+width:100%;
+}
+
+#column-box {
+width:3600px;
+margin-left:auto;
+margin-right:auto;
+}
+
+#column-box2 {
+width:3600px;
+-webkit-transition:margin-left 1s;
+transition:margin-left 1s;
+}
+
+.column-wrapper {
+float:left;
+width:1200px;
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+}
+
+.right-arrow {
+	content: '';
+	position: fixed;
+	right: 2%;
+	top: 50%;
+	margin-top: -50px;
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	border-left: 50px solid orange;
+}
+
+.left-arrow {
+	content: '';
+	position: fixed;
+	left: 2%;
+	top: 50%;
+	margin-top: -50px;
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-left: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	border-right: 50px solid orange;
+}
+
+/*
+     FILE ARCHIVED ON 14:27:28 Oct 28, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:32:15 Dec 24, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
